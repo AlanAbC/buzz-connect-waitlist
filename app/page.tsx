@@ -39,7 +39,13 @@ export default function Home() {
             src="/buzz-connect-logo.svg"
             className="w-[50px] absolute top-5 left-5 md:top-10 md:left-10"
           />
-          <AliceCarousel disableButtonsControls mouseTracking items={slides} />
+          <AliceCarousel
+            autoPlay
+            autoPlayInterval={6000}
+            disableButtonsControls
+            mouseTracking
+            items={slides}
+          />
         </div>
 
         <main className="flex flex-col gap-8 mt-8 justify-center px-6 pb-10">
