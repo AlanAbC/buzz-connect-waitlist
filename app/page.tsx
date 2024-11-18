@@ -44,6 +44,7 @@ export default function Home() {
             autoPlayInterval={6000}
             disableButtonsControls
             mouseTracking
+            infinite
             items={slides}
           />
         </div>
