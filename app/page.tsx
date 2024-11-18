@@ -1,6 +1,5 @@
 "use client";
 import EmailForm from "@/components/EmailFom";
-import Image from "next/image";
 import { Toaster } from "react-hot-toast";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
