@@ -2,3 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+.alice-carousel__dots-item:not(.__custom):hover,
+.alice-carousel__dots-item:not(.__custom).__active {
+  background-color: white !important;
+}
+
+.alice-carousel__dots-item:not(.__custom) {
+  background-color: #b1b2b4 !important;
+}
