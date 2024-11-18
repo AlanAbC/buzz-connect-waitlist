@@ -27,7 +27,7 @@ const itemsContent = [
   },
 ];
 export default function Home() {
-  const handleDragStart = (e) => e.preventDefault();
+  const handleDragStart = (e: any) => e.preventDefault();
   const slides = itemsContent.map((item, index) => (
     <SlideItem key={index} slide={{ ...item, handleDragStart }} />
   ));
